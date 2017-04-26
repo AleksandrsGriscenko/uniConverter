@@ -18,6 +18,6 @@ public class PoundKonverter extends UnitConverter {
 
     @Override
     public String getName() {
-        return "Pound";
+        return "Pounds";
     }
 }

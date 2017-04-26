@@ -44,10 +44,16 @@ public class UniversalConverter {
 
     @Command
     public double convert(double value){
+
+        if (sourceConverter == null || tergedConverter == null){
+            System.out.println("Error! Something missing");
+                    throw new IllegalStateException("source or targed is not set");
+        }
         double siValue =  sourceConverter.toSI(value);
         double  targedValue = tergedConverter.fromSI(siValue);
         return  targedValue;
     }
+
 
 
 

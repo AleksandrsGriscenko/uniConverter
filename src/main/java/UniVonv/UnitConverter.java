@@ -8,13 +8,9 @@ package UniVonv;
 
     public abstract class UnitConverter {
 
-
         public abstract double toSI(double value);
 
-
-
         public abstract double fromSI(double siValue);
-
 
         public abstract String getName();
 
