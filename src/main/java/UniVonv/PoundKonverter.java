@@ -8,12 +8,12 @@ public class PoundKonverter extends UnitConverter {
 
     @Override
     public double toSI(double value) {
-        return value * 2.20462;
+        return value * 0.45359237;
     }
 
     @Override
     public double fromSI(double siValue) {
-        return siValue / 2.20462;
+        return siValue / 0.45359237;
     }
 
     @Override
