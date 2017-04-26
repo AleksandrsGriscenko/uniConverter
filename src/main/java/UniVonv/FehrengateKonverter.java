@@ -14,7 +14,7 @@ public class FehrengateKonverter extends UnitConverter {
 
     @Override
     public double fromSI(double siValue) {
-        return ((siValue) / 9.0 / 5.0) -459.67;
+        return ((siValue) * (9.0 / 5.0)) -459.67;
     }
 
     @Override
