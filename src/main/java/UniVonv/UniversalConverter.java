@@ -13,7 +13,12 @@ public class UniversalConverter {
     private List<UnitConverter> converters = Arrays.asList (
             new CelsiumKonverter(),
             new FehrengateKonverter(),
-            new KelvinKonverter()
+            new KelvinKonverter(),
+            new MeterKonverter(),
+            new InchKonverter(),
+            new FootKonverter(),
+            new KgKonverter(),
+            new PoundKonverter()
     );
 
     private  UnitConverter sourceConverter;
